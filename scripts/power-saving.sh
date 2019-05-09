@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Enable power saving tweaks 
+# Enable power saving tweaks.
 
 sudo pm-powersave true
 sudo tlp start

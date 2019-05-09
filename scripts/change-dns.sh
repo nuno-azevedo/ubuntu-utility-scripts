@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Switch to Google DNS
+# Switch to Google DNS server.
 
 {
   echo "nameserver 8.8.8.8";

@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Clean system cache and useless files / packages 
+# Clean stale packages, cache and temporary files.
 
-sudo apt-get -y autoremove --purge
-sudo apt-get -y autoclean
-sudo apt-get -y clean
-sudo rm -rf /var/crash
+sudo apt autoremove --yes --purge
+sudo apt autoclean --yes
+sudo apt clean --yes
+find ~ \( -name '.DS_Store' -o -name 'Icon'$'\r' -o -name '*~' \) -delete

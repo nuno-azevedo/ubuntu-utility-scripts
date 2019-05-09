@@ -1,5 +1,5 @@
 #!/bin/bash
 
-# Update "open with" application list 
+# Update "Open with $Application" context menu with the latest applications.
 
 sudo update-desktop-database

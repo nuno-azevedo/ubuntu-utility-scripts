@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Fix wifi icon showing connected by wire
+# Reload network icon of status bar.
 
 killall nm-applet
 setsid nm-applet
